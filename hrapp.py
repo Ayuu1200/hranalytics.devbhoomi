@@ -7,7 +7,7 @@ import numpy as np
 with open('hr.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open('schr.pkl', 'rb') as scaler_file:
+with open('schar.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
 
 # Create the web app
